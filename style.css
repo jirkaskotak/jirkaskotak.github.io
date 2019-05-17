@@ -37,7 +37,7 @@ html, body {
 }
 
 .fa-camera, .fa-microphone ,.fa-question {
-  color:#FF005D;
+  color:#F9812A;
   font-size: 4em;
   margin: 1.5rem;
 }
@@ -47,7 +47,7 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  background: url("img/bg-pattern.png");
+  background: url("img/stars_bg.png");
 
 /* background:  linear-gradient(to left, #965cae, #ef51ae);*/
 }
@@ -213,8 +213,8 @@ section.download .badges .badge-link img {
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: black;
-  border-color: #FF005D;
-  background-color: #FF005D;
+  border-color: #F9812A;
+  background-color: #F9812A;
 }
 
 .btn {
@@ -240,8 +240,15 @@ section.contact {
 }
 
 .social a:hover, .social a:focus, .social a:active {
-  color: #FF005D;
+  color: #F9812A;
 }
+
+.privacy_policy {
+  color: #FFFFFF;
+}
+
+.link { color: #FFFFFF; }
+.link:hover { color: #F9812A; } /* CSS link hover (green) */
 
 footer {
   text-align: center;
